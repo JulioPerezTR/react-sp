@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sp-web-part-solution-client-side-solution",
+    "id": "cebaba6c-ff64-4dcf-beb5-7c4cde55ea45",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "SPWebPartSolution description"
+      },
+      "longDescription": {
+        "default": "SPWebPartSolution description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "sp-web-part-solution Feature",
+        "description": "The feature that activates elements of the sp-web-part-solution solution.",
+        "id": "f45f5866-99ea-48ff-87dc-3f465a013500",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sp-web-part-solution.sppkg"
+  }
+}
